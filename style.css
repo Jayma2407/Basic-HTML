@@ -1,10 +1,53 @@
-*{
-    margin: 0;
-    padding: 0
-}
-body{
-    margin: 0
-}
-li{
-    margin-top: 20px
+
+ /* * {
+    margin:0;
+    padding: 10;
+    list-style: none;
+    text-decoration: none;
+ }
+
+ .nav_bar  {
+    background-color: gray;
+    display: flex;
+
+ }
+ .nav_bar ul {
+    display: flex;
+ }
+
+ .nav_bar ul li {
+    padding: 10px;
+ }
+ .nav_bar ul li a{
+    color: white;
+ }
+ .nav_bar ul li:hover{
+    background-color: aqua;
+    cursor: pointer;
+ } */
+
+ * {
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+ }
+ .nav_bar {
+    display: flex;
+    background-color: gray;
+ }
+ .nav_bar ul {
+    display: flex;
+    
+ }
+ .nav_bar ul li {
+    padding: 20px;
+ }
+ .nav_bar ul li:hover{
+    background-color: rgb(169, 212, 245);
+    cursor: pointer;
+
+ }
+ .nav_bar ul li a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:bisque
 }
